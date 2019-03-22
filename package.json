@@ -1,0 +1,27 @@
+{
+  "name": "cypress-select-tests-example",
+  "version": "1.0.0",
+  "description": "Example using cypress-select-tests to run only some tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/cypress-select-tests-example.git"
+  },
+  "keywords": [],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "private": true,
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bahmutov/cypress-select-tests-example/issues"
+  },
+  "homepage": "https://github.com/bahmutov/cypress-select-tests-example#readme",
+  "devDependencies": {
+    "cypress": "3.2.0",
+    "cypress-select-tests": "1.0.0"
+  }
+}
